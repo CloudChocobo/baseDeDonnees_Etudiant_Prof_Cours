@@ -1,3 +1,5 @@
+CREATE ROLE 'etudiant', 'professeur', 'admin';
+
 CREATE USER 'etudiant1' IDENTIFIED BY 'blap';
 GRANT SELECT ON mydb.cours TO 'etudiant1';
 
